@@ -1,3 +1,4 @@
+//If you're not using sessions in express you can delete this file.
 import "express-session";
 
 //This extension to the SessionData object will help vscode with the types of the session object
