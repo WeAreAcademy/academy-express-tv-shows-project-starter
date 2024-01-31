@@ -72,11 +72,13 @@ Run (for production with no live-reload)
 
 `yarn lint`
 
-## Formatting with prettier
+## Formatting:
+
+To format all files (except .ejs files) with prettier:
 
 `yarn format`
 
-However, it is suggested you install vscode's prettier extension and enable the user setting `format on save`. When formatting, VSCode will notice the .prettierrc and format according to those rules (and prettier's defaults).
+However, it is suggested you install vscode's prettier extensionand enable the user setting `format on save`. When formatting, VSCode will notice the .prettierrc and format according to those rules (and prettier's defaults).
 
 ## CI (linting, formatting check, automated tests)
 
