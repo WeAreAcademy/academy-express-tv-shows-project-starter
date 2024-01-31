@@ -3,9 +3,10 @@ const { query } = require("./support/db");
 const { gameOfThronesEpisodes } = require("./data/gameOfThronesData");
 
 /** 
- @typedef {import('./data/gameOfThronesData').Episode} Episode
+ @typedef {import('./data/episodeType').Episode} Episode
 */
 
+//You can delete this once you see the episodes have loaded ok.
 summariseEpisodesToConsole(gameOfThronesEpisodes);
 
 //configure the server's route handlers
