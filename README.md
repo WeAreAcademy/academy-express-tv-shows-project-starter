@@ -2,8 +2,6 @@
 
 This is an intermediate starter template for express apps written in JavaScript (not TypeScript).
 
-It does not use express router - you can add that if you need it.
-
 ## Read this first - check your formatters
 
 Prior to making any changes to the files in this repo, we suggest you make sure your editor is set up correctly to format them the same way as they have been, previously.
@@ -48,6 +46,8 @@ If you have used this project as a template, remember to change this readme file
 -   static file serving from `/public`
     -   favicon
 -   TODO: error-handling
+
+- intentionally not here: express-router - you can add that if you need it, but I've omitted it to start with to keep things familiar.
 
 ### note about live reload
 
