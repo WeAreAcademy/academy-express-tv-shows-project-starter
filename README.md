@@ -47,7 +47,7 @@ If you have used this project as a template, remember to change this readme file
     -   favicon
 -   TODO: error-handling
 
-- intentionally not here: express-router - you can add that if you need it, but I've omitted it to start with to keep things familiar.
+-   intentionally not here: express-router - you can add that if you need it, but I've omitted it to start with to keep things familiar.
 
 ### note about live reload
 
@@ -68,6 +68,8 @@ Copy `.env.example` to `.env` and set any variables there appropriately:
 
 If your express app isn't going to need sessions, you can remove the session-setup code from the express setup (probably in `setupExpress.js`) and this will remove the need for the related environment variable.
 
+Optionally you can specify a PORT number in .env, too.
+
 ## Running
 
 Before you change any code (with exception of creating a suitable `.env` file), check that the app runs and handles a request to `/`.
@@ -81,6 +83,12 @@ Run (in dev mode with live-reload):
 Run (for production with no live-reload)
 
 `yarn start`
+
+This will start the server listening on whatever port has been specified in the code. Then you can make a request as normal from the browser or from here. E.g. if the port is 3000:
+
+```http
+http://localhost:3000/
+```
 
 ## Running tests
 
